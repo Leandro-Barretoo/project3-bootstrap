@@ -1,0 +1,13 @@
+.nav a {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    nav img {
+        width: 22%;
+    }
+}
