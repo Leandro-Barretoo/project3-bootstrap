@@ -7,45 +7,45 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/app.css">
 </head>
-<body class="container">
-    <header>
-        <div>
+<body>
+    <header class="container">
+        <div class="d-flex justify-content-between">
             <div>
-                <p>16º null, PT ></p>
-                <p>Mon, Dec 07, 2020</p>
+                <p class="text-white text-1">16º null, PT ></p>
+                <p class="text-white">Mon, Dec 07, 2020</p>
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="cont-logo">
+                <img src="assets/newsweek-logo.svg" class="news-logo" alt="">
             </div>
-            <div>
-                <button>LOGIN</button>
-                <button>SUBSCRIBE ></button>
+            <div class="hd-btns">
+                <a href="#" class="text-white btn-log">LOGIN</a>
+                <button type="button" class="btn btn-warning">SUBSCRIBE ></button>
             </div>
         </div>
-        <div>
+        <div class="first-opt">
             <ul class="nav">
-                <li class="nav-item"><a class="nav-link" href="#">U.S. |</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">World |</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Business |</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Tech & Science |</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Culture |</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Newsgeek |</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Sports |</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Health |</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">The Debate |</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Vantage |</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">U.S.</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">World</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tech & Science</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Newsgeek</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">The Debate</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
-                <li class="nav-item"><button>Search</button></li>
+                <li class="nav-item"><a class="nav-link" href="#"><span class="nav-btn-s">Search</span></a></li>
             </ul>
         </div>
-        <div>
+        <div class="second-opt">
             <ul class="nav">
                 <li class="nav-item"><a class="nav-link" href="#">TRENDING</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">JOE BIDEN</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">DONALD TRUMP</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">2020 ELECTION</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">CORONAVIRUS</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">STIMULUS PACKAGE</a></li>
+                <li class="nav-item"><a class="nav-link no-b" href="#">STIMULUS PACKAGE</a></li>
             </ul>
         </div>
     </header>
@@ -437,18 +437,22 @@
                 </div>
             </div>
         </div>
-        <div>
-            <div>
-                <div>
-                    <h2>U.S.</h2>
-                    <img src="./assets/vaccine-uk.png" alt="covid cases">
-                    <h3>Average Daily COVID Cases Are Highest in These 4 States</h3>
+        <div class="container">
+            <h2>U.S.</h2>
+            <div class="row">
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/vaccine-uk.png" class="card-img-top" alt="covid cases">
+                    <div class="card-body">
+                        <h3 class="card-title">Average Daily COVID Cases Are Highest in These 4 States</h3>
+                    </div>
                 </div>
-                <div>
-                    <img src="./assets/covidoutbreak.jpeg" alt="the doctor">
-                    <h3>Doctor Against Mandatory Vaccinations to Testify Before Senate</h3>
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/covidoutbreak.jpeg" class="card-img-top" alt="the doctor">
+                    <div class="card-body">
+                        <h3 class="card-title">Doctor Against Mandatory Vaccinations to Testify Before Senate</h3>
+                    </div>
                 </div>
-                <div>
+                <div class="col-lg-4">
                     <div>
                         <img src="./assets/michigan.jpeg" alt="the protestors">
                         <h3>LAPD Strike Lockdown Protesters with Batons Outside Mayor Garcetti's House</h3>
@@ -463,145 +467,180 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <img src="./assets/shark.jpeg" alt="the shark">
-                <h3>Australian Surfer Bitten by Shark Walks 300 Meters to Ask for Help</h3>
-            </div>
-            <div>
-                <img src="./assets/monolith.jpeg" alt="the monolith">
-                <h3>Another Mysterious Monolith Appears, This Time in The Netherlands</h3>
-            </div>
-            <div>
-                <h2>World</h2>
-                <div>
-                    <img src="./assets/troops.jpeg" alt="the troops">
-                    <h3>Trump Pulls Most US Troops from Somalia, But 'Not Withdrawing' from Africa</h3>
+        </div>
+        <div class="container">
+            <h2>World</h2>
+            <div class="row">
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/shark.jpeg" class="card-img-top" alt="the shark">
+                    <div class="card-body">
+                        <h3 class="card-title">Australian Surfer Bitten by Shark Walks 300 Meters to Ask for Help</h3>
+                    </div>
                 </div>
-                <div>
-                    <img src="./assets/china-rank.jpeg" alt="the china rank">
-                    <h3>Most Rank China's Handling of COVID Pandemic Better Than America's</h3>
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/monolith.jpeg" class="card-img-top" alt="the monolith">
+                    <div class="card-body">
+                        <h3 class="card-title">Another Mysterious Monolith Appears, This Time in The Netherlands</h3>
+                    </div>
                 </div>
-                <div>
-                    <img src="./assets/covidoutbreak.jpeg" alt="the covid outbreak">
-                    <h3>Unmasked Hospital Potluck May Have Led to 112 COVID Infections, 12 Deaths</h3>
+                <div class="col-lg-4">
+                    <div>
+                        <img src="./assets/troops.jpeg" alt="the troops">
+                        <h3>Trump Pulls Most US Troops from Somalia, But 'Not Withdrawing' from Africa</h3>
+                    </div>
+                    <div>
+                        <img src="./assets/china-rank.jpeg" alt="the china rank">
+                        <h3>Most Rank China's Handling of COVID Pandemic Better Than America's</h3>
+                    </div>
+                    <div>
+                        <img src="./assets/covidoutbreak.jpeg" alt="the covid outbreak">
+                        <h3>Unmasked Hospital Potluck May Have Led to 112 COVID Infections, 12 Deaths</h3>
+                    </div>
                 </div>
             </div>
         </div>
-        <div>
-        <h2>Business</h2>
-            <div>
-                <img src="./assets/moneymoves.jpeg" alt="the money moves">
-                <h3>The 10 Best Moves to Make with Your Money Before 2020 Ends</h3>
-            </div>
-            <div>
-                <img src="./assets/moremoney.jpeg" alt="the more money">
-                <h3>How to Ask for More Money at Work—Even During a Pandemic</h3>
-            </div>
-            <div>
-                <div>
-                    <img src="./assets/doctor.jpeg" alt="the unlicenced doctor">
-                    <h3>Exclusive: Hollywood Firm Hired Unlicensed Doctor to Test Stars for Covid</h3>
+        <div class="container">
+            <h2>Business</h2>
+            <div class="row">
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/moneymoves.jpeg" class="card-img-top" alt="the money moves">
+                    <div class="card-body">
+                        <h3 class="card-title">The 10 Best Moves to Make with Your Money Before 2020 Ends</h3>
+                    </div>
                 </div>
-                <div>
-                    <img src="./assets/republican.jpeg" alt="the republican">
-                    <h3>Republican Confidence in Economy Plunges After Election: Poll</h3>
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/moremoney.jpeg" class="card-img-top" alt="the more money">
+                    <div class="card-body">
+                        <h3 class="card-title">How to Ask for More Money at Work—Even During a Pandemic</h3>
+                    </div>
                 </div>
-                <div>
-                    <img src="./assets/covidppp.jpeg" alt="the covid ppp">
-                    <h3>Majority of COVID PPP Loans Went to 5 Percent of Companies</h3>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <h2>Tech & Science</h2>
-                <img src="./assets/india.jpeg" alt="">
-                <h3>COVID-19 Outbreak at Canadian Mink Farm Infects Eight People</h3>
-            </div>
-            <div>
-                <img src="./assets/vaccine-uk.png" alt="the UK vaccine">
-                <h3>'Huge' Deadly Snake Filmed Swimming by Beach as Kids Play Nearby</h3>
-            </div>
-            <div>
-                <div>
-                    <img src="./assets/shark.jpeg" alt="the shark">
-                    <h3>We Put the Highly Sought After PS5 Under the Microscope</h3>
-                </div>
-                <div>
-                    <img src="./assets/monolith.jpeg" alt="the monolith">
-                    <h3>Donald Trump's 'Sneak Attack' on Section 230 Likely to Fail, Expert Says</h3>
-                </div>
-                <div>
-                    <img src="./assets/china-rank.jpeg" alt="the covid rank">
-                    <h3>Highly Venomous Snake Found Slithering in Child's Bedroom</h3>
+                <div class="col-lg-4">
+                    <div>
+                        <img src="./assets/doctor.jpeg" alt="the unlicenced doctor">
+                        <h3>Exclusive: Hollywood Firm Hired Unlicensed Doctor to Test Stars for Covid</h3>
+                    </div>
+                    <div>
+                        <img src="./assets/republican.jpeg" alt="the republican">
+                        <h3>Republican Confidence in Economy Plunges After Election: Poll</h3>
+                    </div>
+                    <div>
+                        <img src="./assets/covidppp.jpeg" alt="the covid ppp">
+                        <h3>Majority of COVID PPP Loans Went to 5 Percent of Companies</h3>
+                    </div>
                 </div>
             </div>
         </div>
-        <div>
+        <div class="container">
+            <h2>Tech & Science</h2>
+            <div class="row">
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/india.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">COVID-19 Outbreak at Canadian Mink Farm Infects Eight People</h3>
+                    </div>
+                </div>
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/vaccine-uk.png" class="card-img-top" alt="the UK vaccine">
+                    <div class="card-body">
+                        <h3 class="card-title">'Huge' Deadly Snake Filmed Swimming by Beach as Kids Play Nearby</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <img src="./assets/shark.jpeg" alt="the shark">
+                        <h3>We Put the Highly Sought After PS5 Under the Microscope</h3>
+                    </div>
+                    <div>
+                        <img src="./assets/monolith.jpeg" alt="the monolith">
+                        <h3>Donald Trump's 'Sneak Attack' on Section 230 Likely to Fail, Expert Says</h3>
+                    </div>
+                    <div>
+                        <img src="./assets/china-rank.jpeg" alt="the covid rank">
+                        <h3>Highly Venomous Snake Found Slithering in Child's Bedroom</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <h2>Culture</h2>
-            <div>
-                <img src="./assets/cardib.jpeg" alt="the shameless">
-                <h3>When 'Shameless' Season 11 Will Come to Netflix</h3>
-            </div>
-            <div>
-                <img src="./assets/euphoria.jpeg" alt="the reaction">
-                <h3>Bette Midler, Mark Ruffalo, Others React to Rudy Giuliani's COVID Diagnosis</h3>
-            </div>
-            <div>
-                <div>
-                    <img src="./assets/pearlharbour.jpeg" alt="the pearl harbor">
-                    <h3>Pearl Harbor Day 2020: Photos from the Attack</h3>
+            <div class="row">
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/cardib.jpeg" class="card-img-top" alt="the shameless">
+                    <div class="card-body">
+                        <h3 class="card-title">When 'Shameless' Season 11 Will Come to Netflix</h3>
+                    </div>
                 </div>
-                <div>
-                    <img src="./assets/torndown.jpeg" alt="the season 2">
-                    <h3>'Attack on Titan' Season 4, Episode 2 Release Date and How to Watch Online</h3>
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/euphoria.jpeg" class="card-img-top" alt="the reaction">
+                    <div class="card-body">
+                        <h3 class="card-title">Bette Midler, Mark Ruffalo, Others React to Rudy Giuliani's COVID Diagnosis</h3>
+                    </div>
                 </div>
-                <div>
-                    <img src="./assets/trumpsneak.jpeg" alt="the member">
-                    <h3>'NCIS: Los Angeles' Cast Member Reveals If Deeks Is Leaving</h3>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <h2>Sports</h2>
-                <img src="./assets/loganpaul.jpeg" alt="the memes">
-                <h3>Logan Paul vs Floyd Mayweather Sparks Memes, Jokes on Twitter</h3>
-            </div>
-            <div>
-                <img src="./assets/aaronrodgers.jpeg" alt="the first qb">
-                <h3>Aaron Rodgers Becomes First QB to Achieve Historic NFL Record</h3>
-            </div>
-            <div>
-                <div>
-                    <img src="./assets/travis.jpeg" alt="the nfl history">
-                    <h3>Travis Kelce Makes NFL History as Chiefs Defeat Broncos on SNF</h3>
-                </div>
-                <div>
-                    <img src="./assets/floyd.jpeg" alt="the odds">
-                    <h3>Early Odds of Logan Paul v Floyd Mayweather Fight in February 2021</h3>
-                </div>
-                <div>
-                    <img src="./assets/playoff.jpeg" alt="the nfl playoff">
-                    <h3>NFL Playoff Standings, Likely Matchups After Sunday in Week 13</h3>
+                <div class="col-lg-4">
+                    <div>
+                        <img src="./assets/pearlharbour.jpeg" alt="the pearl harbor">
+                        <h3>Pearl Harbor Day 2020: Photos from the Attack</h3>
+                    </div>
+                    <div>
+                        <img src="./assets/torndown.jpeg" alt="the season 2">
+                        <h3>'Attack on Titan' Season 4, Episode 2 Release Date and How to Watch Online</h3>
+                    </div>
+                    <div>
+                        <img src="./assets/trumpsneak.jpeg" alt="the member">
+                        <h3>'NCIS: Los Angeles' Cast Member Reveals If Deeks Is Leaving</h3>
+                    </div>
                 </div>
             </div>
         </div>
-        <div>
-            <h2>SUBSCRIBE</h2>
-            <div>
-                <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
-                <p>All Access + Weekly Delivery.</p>
-                <p>Choose Membership That's Perfect for You!</p>
-                <button>SUBSCRIBE ></button>
+        <div class="container">
+            <h2>Sports</h2>
+            <div class="row">
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/loganpaul.jpeg" class="card-img-top" alt="the memes">
+                    <div class="card-body">
+                        <h3 class="card-title">Logan Paul vs Floyd Mayweather Sparks Memes, Jokes on Twitter</h3>
+                    </div>
+                </div>
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./assets/aaronrodgers.jpeg" class="card-img-top" alt="the first qb">
+                    <div class="card-body">
+                        <h3 class="card-title">Aaron Rodgers Becomes First QB to Achieve Historic NFL Record</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <img src="./assets/travis.jpeg" alt="the nfl history">
+                        <h3>Travis Kelce Makes NFL History as Chiefs Defeat Broncos on SNF</h3>
+                    </div>
+                    <div>
+                        <img src="./assets/floyd.jpeg" alt="the odds">
+                        <h3>Early Odds of Logan Paul v Floyd Mayweather Fight in February 2021</h3>
+                    </div>
+                    <div>
+                        <img src="./assets/playoff.jpeg" alt="the nfl playoff">
+                        <h3>NFL Playoff Standings, Likely Matchups After Sunday in Week 13</h3>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="./assets/youfirst.jpg" alt="">
-                <h3>The Starting 5</h3>
-                <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-                <form action="">
-                    <button>FREE SIGN UP ></button>
-                </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>SUBSCRIBE</h2>
+                    <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+                    <p>All Access + Weekly Delivery.</p>
+                    <p>Choose Membership That's Perfect for You!</p>
+                    <button>SUBSCRIBE ></button>
+                </div>
+                <div class="col-lg-6">
+                    <h2>NEWSLETTER</h2>
+                    <img src="./assets/youfirst.jpg" alt="">
+                    <h3>The Starting 5</h3>
+                    <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                    <form action="">
+                        <button>FREE SIGN UP ></button>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
