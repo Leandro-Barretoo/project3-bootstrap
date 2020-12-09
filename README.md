@@ -1,17 +1,17 @@
-# Project 3: Building with Bootstrap
+# Project 3:  Using Bootstrap
 
-> Recreation of The News Week using Bootstrap. 
+> Recreation of Newsweek website using Twitter Bootstrap framework. 
 
-> This project is an attempt to recreate a Website called The News Week using Bootstrap, HTML, CSS and applying position concepts and UX principles to achieve a responsive website for any device.
+> This project is an attempt to recreate a Website called Newsweek using HTML, CSS, applying position concepts and UX principles achieving a responsive website and built with twitter bootstrap framework.
 
 ## Built with
 
-* HTML and CSS
+* HTML, CSS and Bootstrap
 
 ## Live Demo
 
 ```sh
-# https://taiwo2.github.io/nextwebclone/
+https://leandro-barretoo.github.io/project3-bootstrap/
 ```
 
 ## Authors
@@ -24,9 +24,9 @@
 
 :bust_in_silhouette: **Author 2**
 
-- GitHub: [@jebitok-dev](https://github.com/jebitok-dev)
-- Twitter: [@Jsebitok](https://twitter.com/Jsebitok)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sharon-jebitok)
+- GitHub: [@taiwo2](https://github.com/taiwo2)
+- Twitter: [@TaiwoAdetona4](https://twitter.com/TaiwoAdetona4)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/taiwo-waliyullahi-adetona-988898180/)
 
 ## :thumbsup: Contributing
 
@@ -43,7 +43,9 @@ Give a :star: if you like this project!
 ## Acknowledgments
 
 - Odin's Project Positioning Lessons
+- Bootstrap Documentation
 
 ## :page_with_curl: License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
