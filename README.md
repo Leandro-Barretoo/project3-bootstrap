@@ -1,8 +1,8 @@
-# Project 2: Building with Responsive Design
+# Project 3: Building with Bootstrap
 
-> Recreation of The New Web using responsive design. 
+> Recreation of The News Week using Bootstrap. 
 
-> This project is an attempt to recreate a Website called The New Web using HTML, CSS and applying position concepts and UX principles to achieve a responsive website for any device.
+> This project is an attempt to recreate a Website called The News Week using Bootstrap, HTML, CSS and applying position concepts and UX principles to achieve a responsive website for any device.
 
 ## Built with
 
@@ -11,7 +11,7 @@
 ## Live Demo
 
 ```sh
-https://taiwo2.github.io/nextwebclone/
+# https://taiwo2.github.io/nextwebclone/
 ```
 
 ## Authors
@@ -24,13 +24,13 @@ https://taiwo2.github.io/nextwebclone/
 
 :bust_in_silhouette: **Author 2**
 
-- GitHub: [@taiwo2](https://github.com/taiwo2)
-- Twitter: [@TaiwoAdetona4](https://twitter.com/TaiwoAdetona4)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/taiwo-waliyullahi-adetona-988898180/)
+- GitHub: [@jebitok-dev](https://github.com/jebitok-dev)
+- Twitter: [@Jsebitok](https://twitter.com/Jsebitok)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sharon-jebitok)
 
 ## :thumbsup: Contributing
 
-1. Fork it (<https://github.com/taiwo2/nextwebclone/fork>)
+1. Fork it (<https://github.com/Leandro-Barretoo/project3-bootstrap/fork>)
 2. Create your feature branch (`git checkout -b <branch-name>`)
 3. Commit your changes (`git commit -m "Descriptive change"`)
 4. Push to the branch (`git push -u origin <branch-name>`)
