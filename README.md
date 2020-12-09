@@ -24,9 +24,9 @@ https://leandro-barretoo.github.io/project3-bootstrap/
 
 :bust_in_silhouette: **Author 2**
 
-- GitHub: [@taiwo2](https://github.com/taiwo2)
-- Twitter: [@TaiwoAdetona4](https://twitter.com/TaiwoAdetona4)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/taiwo-waliyullahi-adetona-988898180/)
+- GitHub: [@jebitok-dev](https://github.com/jebitok-dev/)
+- Twitter: [@Jsebitok](https://twitter.com/Jsebitok/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sharon-jebitok/)
 
 ## :thumbsup: Contributing
 
