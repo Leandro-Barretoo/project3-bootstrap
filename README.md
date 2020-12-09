@@ -1,12 +1,12 @@
-# Project 2: Building with Responsive Design
+# Project 3:  Using Bootstrap
 
-> Recreation of The New Web using responsive design. 
+> Recreation of Newsweek website using Twitter Bootstrap framework. 
 
-> This project is an attempt to recreate a Website called The New Web using HTML, CSS and applying position concepts and UX principles to achieve a responsive website for any device.
+> This project is an attempt to recreate a Website called Newsweek using HTML, CSS, applying position concepts and UX principles achieving a responsive website and built with twitter bootstrap framework.
 
 ## Built with
 
-* HTML and CSS
+* HTML, CSS and Bootstrap
 
 ## Live Demo
 
@@ -43,6 +43,7 @@ Give a :star: if you like this project!
 ## Acknowledgments
 
 - Odin's Project Positioning Lessons
+- Bootstrap Documentation
 
 ## :page_with_curl: License
 
