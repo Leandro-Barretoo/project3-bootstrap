@@ -11,7 +11,7 @@
 ## Live Demo
 
 ```sh
-https://taiwo2.github.io/nextwebclone/
+https://leandro-barretoo.github.io/project3-bootstrap/
 ```
 
 ## Authors
@@ -30,7 +30,7 @@ https://taiwo2.github.io/nextwebclone/
 
 ## :thumbsup: Contributing
 
-1. Fork it (<https://github.com/taiwo2/nextwebclone/fork>)
+1. Fork it (<https://github.com/Leandro-Barretoo/project3-bootstrap/fork>)
 2. Create your feature branch (`git checkout -b <branch-name>`)
 3. Commit your changes (`git commit -m "Descriptive change"`)
 4. Push to the branch (`git push -u origin <branch-name>`)
