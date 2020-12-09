@@ -12,6 +12,10 @@ body {
     padding: 20px;
 }
 
+.main-content h3:hover {
+    text-decoration: underline red;
+}
+
 .news-logo {
     width: 100%;
     height: 100px;   
@@ -51,10 +55,6 @@ body {
     font-size: 18px;
     font-weight: 900;
     margin-bottom: 5px;
-}
-
-.col-lg-4 {
-    /* border: 1px solid green; */
 }
 
 .d-flex {
@@ -159,6 +159,17 @@ body {
     margin: 20px 0;
 }
 
+.mag-cont {
+    padding: 10px;
+}
+
+.mag-cont img{
+    width: 250;
+    height: 200px;
+}
+
+
+
 .mag-text {
     font-size: 25px;
     font-weight: bold;
@@ -183,9 +194,128 @@ body {
     font-weight: bold;
 }
 
+.pick-cont {
+    padding: 10px;
+}
+
+.pick-cont img {
+    width: 250px;
+    height: 200px;
+}
+
+.categ-img img {
+    width: 350px;
+    height: 220px;
+}
+
+.pick-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
+
 .sec-asi img {
     width: 120px;
     height: 100px;
     padding-right: 10px;
 }
+
+.pick-sepa {
+    width: 97%;
+}
+
+.sub-new-cont {
+    padding: 50px;
+}
+
+.sub-new-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+
+.sub-new-item {
+    background-color: lightgray;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newl-sec {
+    border: 1px solid #cececd;
+    background-color: white;
+}
+
+.new-item-1 img {
+    height: 100%;
+}
+
+.new-item-2 {
+    width: 220px;
+    padding: 30px;
+}
+
+.newl-btn {
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 700;
+    width: 165px;
+}
+
+.form-control {
+    width: 165px;
+}
+
+.newl-btn:hover {
+    background-color: red;
+}
+
+.sub-item-1 {
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.sub-item-2 {
+    padding: 40px;
+}
+
+.foot-cont {
+    padding: 20px;
+}
+
+.foot-item1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-item1 img {
+    width: 250px;
+}
+
+.comp-mark {
+    display: flex;
+}
+
+.comp-mark-item2 {
+    position: relative;
+    width: 300px;
+
+}
+
+.comp-mark-item2 p {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 13px;
+}
+
+.fa {
+    font-size: 30px;
+    color: #333;
+    margin: 0 10px;
+    margin-top: 15px;
+}
+
+
 
