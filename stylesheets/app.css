@@ -62,7 +62,6 @@ body {
   box-sizing: content-box;
   text-align: center;
   line-height: normal;
-  /* -webkit-text-stroke-width: thin; */
 }
 
 .fa-user {
@@ -102,7 +101,6 @@ body {
 
 .first-op-nav li a {
   font-size: initial;
-  /* -webkit-text-stroke: thin; */
   padding: 5px;
 }
 
@@ -378,7 +376,6 @@ body {
   .btn-log {
     margin: inherit;
     font-size: large;
-    /* -webkit-text-stroke-width: thin; */
   }
 
   .fa-cloud {
@@ -415,7 +412,6 @@ body {
     box-sizing: content-box;
     text-align: center;
     line-height: normal;
-    /* -webkit-text-stroke-width: thin; */
   }
 
   .hd-btns {
@@ -549,7 +545,6 @@ body {
     box-sizing: content-box;
     text-align: center;
     line-height: normal;
-    -webkit-text-stroke-width: thin;
   }
 
   .hd-btns {
