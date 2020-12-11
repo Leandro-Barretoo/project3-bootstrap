@@ -29,7 +29,7 @@ body {
 
 .news-logo {
     width: 100%;
-    height: 100px;   
+    height: 100px;
 }
 
 .text-white {
@@ -117,7 +117,7 @@ body {
     border-bottom: 1px solid lightgray;
 }
 
-.nav-btn-s { 
+.nav-btn-s {
     font-weight: normal;
 }
 
@@ -192,7 +192,7 @@ body {
     padding: 10px;
 }
 
-.mag-cont img{
+.mag-cont img {
     width: 250;
     height: 200px;
 }
@@ -213,7 +213,7 @@ body {
     color: white;
     background-color: red;
     font-size: 18px;
-    padding:7px;
+    padding: 7px;
     font-weight: bold;
     margin-right: 5px;
 }
@@ -377,7 +377,7 @@ body {
     }
 
     .cont-logo img {
-        height: 40px;   
+        height: 40px;
     }
 
     .btn-log {
@@ -491,7 +491,7 @@ body {
     }
 
     .cont-logo img {
-        height: 40px;   
+        height: 40px;
     }
 
     .btn-log {
@@ -605,7 +605,7 @@ body {
         margin-bottom: 0;
         width: 100%;
     }
-    
+
     .form-control {
         width: 100%;
     }
@@ -622,4 +622,3 @@ body {
         position: relative;
     }
 }
-
