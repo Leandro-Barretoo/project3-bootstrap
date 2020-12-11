@@ -261,6 +261,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: red;
+    margin: 20px 0;
 }
 
 .sub-new-item {
@@ -455,6 +456,29 @@ body {
     .no-med-view {
         display: none;
     }
+
+    .pick-cont img {
+        width: 440px;
+        height: 251px;
+    }
+
+    .new-item-1 {
+        width: 50%;
+    }
+
+    .new-item-1 img {
+        width: 100%;
+    }
+
+    .new-item-2 {
+        width: 50%;
+    }
+
+    .newl-sec {
+        height: 234px;
+        flex-direction: row;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -578,6 +602,10 @@ body {
         font-size: 12px;
         text-align: center;
         padding: 0;
+    }
+
+    .new-item-1 {
+        width: auto;
     }
 
     .new-item-1 img {
