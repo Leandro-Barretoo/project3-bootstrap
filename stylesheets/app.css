@@ -43,6 +43,12 @@ body {
   font-weight: 900;
 }
 
+.btn-log {
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+}
+
 .btn-log:hover {
   text-decoration: none;
 }
@@ -70,12 +76,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.btn-log {
-  font-size: 18px;
-  font-weight: 900;
-  color: white;
 }
 
 .fa-bars {
@@ -195,13 +195,8 @@ body {
 }
 
 .mag-cont img {
-  width: 250;
+  width: 250px;
   height: 200px;
-}
-
-.mag-text {
-  font-size: 25px;
-  font-weight: bold;
 }
 
 .mag-item-title1 {
@@ -383,7 +378,7 @@ body {
   .btn-log {
     margin: inherit;
     font-size: large;
-    -webkit-text-stroke: thin;
+    -webkit-text-stroke-width: thin;
   }
 
   .fa-cloud {
