@@ -1,18 +1,18 @@
-# Project 3:  Using Bootstrap
+# Project 3: Using Bootstrap
 
-> Recreation of Newsweek website using Twitter Bootstrap framework. 
+> Recreation of Newsweek website using Twitter Bootstrap framework.
+
+![screenshot](./assets/screenshot.png)
 
 > This project is an attempt to recreate a Website called Newsweek using HTML, CSS, applying position concepts and UX principles achieving a responsive website and built with twitter bootstrap framework.
 
 ## Built with
 
-* HTML, CSS and Bootstrap
+- HTML, CSS and Bootstrap
 
 ## Live Demo
 
-```sh
-https://leandro-barretoo.github.io/project3-bootstrap/
-```
+[LiveDemo-Link]](https://leandro-barretoo.github.io/project3-bootstrap/)
 
 ## Authors
 
@@ -48,4 +48,3 @@ Give a :star: if you like this project!
 ## :page_with_curl: License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
-
