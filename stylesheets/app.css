@@ -128,6 +128,46 @@ body {
   border: none;
 }
 
+.deco {
+    position: relative;
+}
+
+.deco::before {
+    top: calc(50% - 2px);
+}
+
+.deco::after {
+    top: 50%;
+}
+
+.deco::after, .deco::before {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.c-vs {
+    position:relative;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    color: #d6d6d6;
+    border-radius: 50%;
+    font: bold 14px/32px "Roboto Condensed", sans-serif;
+    text-align: center;
+    margin: 6px auto;
+}
+
+.op-item-rev {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
 .main-title-h {
   font-size: 18px;
   color: grey;
@@ -149,6 +189,39 @@ body {
   font-weight: 700;
   color: #5c696e;
   margin-top: 10px;
+}
+
+.sig-up-sec {
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding: 16px;
+    background-color: lightgrey;
+}
+
+.sig-up-sec p {
+    margin-left: 5px;
+    text-align: -webkit-left;
+    font-size: x-large;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.sig-up-sec form input{
+    width: -webkit-fill-available;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.sig-up-sec form button {
+    width: -webkit-fill-available;
+    margin: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 700;
 }
 
 .more-stories-sec img {
@@ -190,13 +263,13 @@ body {
 }
 
 .mag-cont img {
-  width: 250px;
   height: 200px;
 }
 
 .mag-item-title1 {
   font-size: 17px;
   color: red;
+  line-height: 30px;
 }
 
 .mag-item-title2 {
@@ -218,13 +291,7 @@ body {
 }
 
 .pick-cont img {
-  width: 250px;
   height: 200px;
-}
-
-.categ-img img {
-  width: 350px;
-  height: 220px;
 }
 
 .pick-title {
@@ -244,7 +311,7 @@ body {
 }
 
 .sub-new-cont {
-  padding: 50px;
+  padding: 14px;
 }
 
 .sub-new-title {
@@ -256,7 +323,6 @@ body {
 
 .sub-new-item {
   background-color: lightgray;
-  height: 400px;
   display: flex;
   justify-content: space-between;
 }
@@ -272,7 +338,8 @@ body {
 
 .new-item-2 {
   width: 220px;
-  padding: 30px;
+  margin-top: 57px;
+  margin-left: 13px;
 }
 
 .newl-btn {
@@ -297,7 +364,8 @@ body {
 }
 
 .sub-item-2 {
-  padding: 40px;
+  margin-top: 55px;
+  margin-right: 8px;
 }
 
 .foot-cont {
@@ -332,7 +400,7 @@ body {
 .fa {
   font-size: 30px;
   color: #333;
-  margin: 0 10px;
+  margin: 0 7px;
   margin-top: 15px;
 }
 
@@ -345,13 +413,11 @@ body {
   display: none;
 }
 
-@media (max-width: 1373px) {
-  .container {
-    max-width: 100%;
-  }
+.turn-ct {
+    display: none;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .container {
     max-width: 100%;
   }
@@ -425,7 +491,7 @@ body {
   }
 
   .feat-stories {
-    order: 2;
+    order: 1;
   }
 
   .top-stories {
@@ -440,12 +506,7 @@ body {
     order: 3;
   }
 
-  .no-med-view {
-    display: none;
-  }
-
   .pick-cont img {
-    width: 440px;
     height: 251px;
   }
 
@@ -462,22 +523,23 @@ body {
   }
 
   .newl-sec {
-    height: 234px;
     flex-direction: row;
   }
+
+    /* .col-lg-4 {
+        min-width: 50%;
+    }
+
+    .feat-stories {
+        order: 1;
+    } */
+
+    .categories-cont {
+        display: none;
+    }
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
-  .col-lg-4 {
-    flex: 1;
-    min-width: 50%;
-  }
-  .feat-stories {
-    order: 1;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   .container {
     max-width: 100%;
   }
@@ -493,11 +555,6 @@ body {
 
   .no-mobile-view {
     display: none;
-  }
-
-  .turn-ct img {
-    width: 700px;
-    height: 500px;
   }
 
   .nav-left-cont {
@@ -567,14 +624,8 @@ body {
     height: 50px;
   }
 
-  .mag-cont img {
-    width: 732px;
-    height: 450px;
-  }
-
-  .pick-cont img {
-    width: 732px;
-    height: 450px;
+  .feat-stories {
+      order: 2;
   }
 
   .sub-item-1 {
@@ -643,5 +694,9 @@ body {
 
   .comp-mark-item2 p {
     position: relative;
+  }
+
+  .fa {
+      font-size: 21px;
   }
 }
