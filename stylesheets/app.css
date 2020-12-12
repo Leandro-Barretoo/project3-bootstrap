@@ -470,6 +470,18 @@ body {
   }
 }
 
+.col-lg-4 {
+  flex: 1;
+  min-width: 33%;
+}
+
+@media screen and (min-width: 768px) {
+  .col-lg-4 {
+    /* flex: 1; */
+    min-width: 50%;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     max-width: 100%;
