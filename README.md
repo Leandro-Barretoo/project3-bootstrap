@@ -12,7 +12,9 @@
 
 ## Live Demo
 
-[LiveDemo-Link](https://leandro-barretoo.github.io/project3-bootstrap/)
+```sh
+https://leandro-barretoo.github.io/project3-bootstrap/
+```
 
 ## Authors
 
