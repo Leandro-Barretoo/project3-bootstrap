@@ -190,8 +190,8 @@ body {
 }
 
 .mag-cont img {
-  width: 250px;
-  height: 200px;
+  width: 100%;
+  height: auto;
 }
 
 .mag-item-title1 {
@@ -218,8 +218,8 @@ body {
 }
 
 .pick-cont img {
-  width: 250px;
-  height: 200px;
+  width: 100%;
+  height: auto;
 }
 
 .categ-img img {
@@ -245,6 +245,9 @@ body {
 
 .sub-new-cont {
   padding: 50px;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
 }
 
 .sub-new-title {
@@ -252,6 +255,7 @@ body {
   font-weight: bold;
   color: red;
   margin: 20px 0;
+  max-width: 100%;
 }
 
 .sub-new-item {
@@ -281,6 +285,7 @@ body {
   border: none;
   font-weight: 700;
   width: 165px;
+  display: block;
 }
 
 .form-control {
@@ -445,8 +450,8 @@ body {
   }
 
   .pick-cont img {
-    width: 440px;
-    height: 251px;
+    width: 100%;
+    height: auto;
   }
 
   .new-item-1 {
@@ -467,11 +472,56 @@ body {
   }
 }
 
+.vs > div {
+  position: absolute;
+  margin: auto;
+  top: -16px;
+  left: 0;
+  right: 0;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+}
+
+.opinion-form {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.vs {
+  position: relative;
+}
+
+.vs span {
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #333;
+  text-align: center;
+}
+
+.n-logo {
+  width: 35px;
+  height: auto;
+  align-self: center;
+}
+
+.logo-n li {
+  text-decoration: none;
+  display: inline;
+  align-self: center;
+}
+
 @media (min-width: 769px) and (max-width: 991px) {
-  .col-lg-4 {
+  /* .col-lg-4 {
     flex: 1;
     min-width: 50%;
-  }
+  } */
   .feat-stories {
     order: 1;
   }
@@ -496,8 +546,8 @@ body {
   }
 
   .turn-ct img {
-    width: 700px;
-    height: 500px;
+    width: 100%;
+    height: auto;
   }
 
   .nav-left-cont {
@@ -568,13 +618,13 @@ body {
   }
 
   .mag-cont img {
-    width: 732px;
-    height: 450px;
+    width: 100%;
+    height: auto;
   }
 
   .pick-cont img {
-    width: 732px;
-    height: 450px;
+    width: 100%;
+    height: auto;
   }
 
   .sub-item-1 {

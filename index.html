@@ -14,11 +14,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="./stylesheets/styles.css" />
     <link rel="stylesheet" href="stylesheets/app.css" />
   </head>
   <body>
     <div class="container">
-      <header class="container">
+      <header>
         <div class="d-flex justify-content-between">
           <div class="nav-left-cont">
             <p class="text-white text-1">
@@ -84,965 +85,976 @@
         </div>
       </header>
       <main>
-        <div class="container main-content">
+        <div class="container-fluid flex-column main-content">
           <div class="row">
-            <div class="col-lg-4 feat-stories">
-              <h2 class="main-title-h">FEATURED STORIES</h2>
-              <div>
-                <img
-                  class="card-img-top"
-                  src="./assets/giluani.jpeg"
-                  alt="the team trump"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">
-                    Team Trump Tries to Play Down Fears Giuliani Exposed
-                    Hundreds to COVID-19
-                  </h3>
-                  <p class="card-text">
-                    President Donald Trump's lawyer is infected with COVID-19
-                    and reportedly in hospital after traveling to several states
-                    and meeting with lawmakers about the 2020 election.
-                  </p>
+            <div class="col col-sm col-md col-lg">
+              <div class="feat-stories">
+                <h2 class="main-title-h">FEATURED STORIES</h2>
+                <div>
+                  <img
+                    class="card-img-top img-fluid"
+                    src="./assets/giluani.jpeg"
+                    class="img-fluid"
+                    alt="the team trump"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      Team Trump Tries to Play Down Fears Giuliani Exposed
+                      Hundreds to COVID-19
+                    </h3>
+                    <p class="card-text">
+                      President Donald Trump's lawyer is infected with COVID-19
+                      and reportedly in hospital after traveling to several
+                      states and meeting with lawmakers about the 2020 election.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <img
-                  src="./assets/stimulusbill.jpeg"
-                  class="card-img-top"
-                  alt="the stimulus bill"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">
-                    Stimulus Bill Likely to Come in Next Few Days, Dem and GOP
-                    Senators Say
-                  </h3>
-                  <p class="card-text">
-                    "We are working right now on language so that we can have—as
-                    early as tomorrow—a piece of legislation," Senator Mark
-                    Warner said on Sunday.
-                  </p>
+                <div>
+                  <img
+                    src="./assets/stimulusbill.jpeg"
+                    class="card-img-top img-fluid"
+                    alt="the stimulus bill"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      Stimulus Bill Likely to Come in Next Few Days, Dem and GOP
+                      Senators Say
+                    </h3>
+                    <p class="card-text">
+                      "We are working right now on language so that we can
+                      have—as early as tomorrow—a piece of legislation," Senator
+                      Mark Warner said on Sunday.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <img
-                  src="./assets/deborah.jpeg"
-                  class="card-img-top"
-                  alt="the birx"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">
-                    Deborah Birx Bemoans Americans 'Parroting Back' Trump's
-                    Anti-Mask Messaging
-                  </h3>
-                  <p class="card-text">
-                    "This is not just the worst public health event. This is the
-                    worst event that this country will face," the White House
-                    Coronavirus Response Coordinator warned.
-                  </p>
+                <div>
+                  <img
+                    src="./assets/deborah.jpeg"
+                    class="card-img-top img-fluid"
+                    alt="the birx"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      Deborah Birx Bemoans Americans 'Parroting Back' Trump's
+                      Anti-Mask Messaging
+                    </h3>
+                    <p class="card-text">
+                      "This is not just the worst public health event. This is
+                      the worst event that this country will face," the White
+                      House Coronavirus Response Coordinator warned.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <img
-                  src="./assets/georgiagop.jpeg"
-                  class="card-img-top"
-                  alt="the governor"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">
-                    Georgia's GOP Sec of State Condemns 'Unpatriotic' Trump
-                    Supporter Behavior
-                  </h3>
-                  <p class="card-text">
-                    "You're seeing irrational, angry behavior, it's
-                    unpatriotic," Brad Raffensperger said Sunday. "We had an
-                    election, like I said, I wish my guy would have won and it
-                    looks like he's not."
-                  </p>
-                </div>
-              </div>
-              <div class="no-med-view no-mobile-view">
-                <img
-                  src="./assets/hospitalized.jpeg"
-                  class="card-img-top"
-                  alt="the hospitalized"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">
-                    There Are 101,190 People Currently Hospitalized with
-                    COVID-19 Nationwide
-                  </h3>
-                  <p class="card-text">
-                    The current number of hospitalizations topped 100,000 this
-                    week, as the U.S. also recorded its highest daily case count
-                    on record.
-                  </p>
-                </div>
-              </div>
-              <div class="no-med-view no-mobile-view" style="margin: 40px 0">
-                <h5 class="font-weight-bold">
-                  Fauci's Timeline for When He Thinks America Will Beat COVID
-                </h5>
-                <hr style="border: 1px solid black" />
-                <h5 class="font-weight-bold">
-                  Fact Check: Do You Need a COVID-19 Vaccine If You Already Have
-                  Had the Virus
-                </h5>
-                <hr style="border: 1px solid black" />
-                <h5 class="font-weight-bold">
-                  'I'm 23, I Had a Mini Stroke Days After Contracting COVID'
-                </h5>
-                <hr style="border: 1px solid black" />
-                <h5 class="font-weight-bold">
-                  Johns Hopkins Researcher Calls out FDA for Slow COVID Vaccine
-                  Approval
-                </h5>
-                <hr style="border: 1px solid black" />
-                <h5 class="font-weight-bold">
-                  Fact Check: Has COVID-19 Had No Impact on Overall US Deaths
-                  This Year?
-                </h5>
-              </div>
-              <div class="no-med-view no-mobile-view">
-                <img
-                  src="./assets/kellytwitter.jpeg"
-                  class="card-img-top"
-                  alt="the career"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">
-                    Would You Like a Career That Will Make a Real Difference?
-                  </h3>
-                  <p class="card-text">
-                    Would You Like a Career That Will Make a Real Difference?
-                    Stop thinking about being a teacher and get started on your
-                    path to one of the most rewarding careers in the world. Find
-                    out where to get qualified.
-                  </p>
-                </div>
-              </div>
-              <div class="no-med-view no-mobile-view">
-                <img
-                  src="./assets/moneymoves.jpeg"
-                  class="card-img-top"
-                  alt="the business school"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">
-                    Why is an EQUIS Accreditation Important for a Business
-                    School?
-                  </h3>
-                  <p class="card-text">
-                    With over 15,000 business schools worldwide, it is
-                    increasingly difficult for prospective students, executives,
-                    corporate partners and other stakeholders to recognize a
-                    quality institution. That’s where an EQUIS Accreditation
-                    comes in. Find out more.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 top-stories">
-              <h2 class="main-title-h">TOP STORY</h2>
-              <div>
-                <img
-                  src="./assets/lofeller.jpeg"
-                  class="card-img-top"
-                  alt="the lofeller"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">
-                    Loeffler Declines to Defend Her Ally Governor Kemp From
-                    Trump's Attacks
-                  </h3>
-                  <p class="card-text">
-                    Moderators asked the incumbent Georgia Republican senator if
-                    she supported Trump's attacks on Kemp three separate times
-                    during Sunday's debate.
-                  </p>
+                <div>
+                  <img
+                    src="./assets/georgiagop.jpeg"
+                    class="card-img-top img-fluid"
+                    alt="the governor"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      Georgia's GOP Sec of State Condemns 'Unpatriotic' Trump
+                      Supporter Behavior
+                    </h3>
+                    <p class="card-text">
+                      "You're seeing irrational, angry behavior, it's
+                      unpatriotic," Brad Raffensperger said Sunday. "We had an
+                      election, like I said, I wish my guy would have won and it
+                      looks like he's not."
+                    </p>
+                  </div>
                 </div>
                 <div class="no-med-view no-mobile-view">
                   <img
-                    src="./assets/kelly.jpeg"
-                    class="card-img-top"
-                    alt="the senate candidate"
+                    src="./assets/hospitalized.jpeg"
+                    class="card-img-top img-fluid"
+                    alt="the hospitalized"
                   />
-                  <h3 class="card-title">
-                    Loeffler Dodges Question on Election Rigging as Ossoff
-                    Debates Empty Room
-                  </h3>
-                  <p class="card-text">
-                    Georgia Democratic Senate candidate Jon Ossoff asked the
-                    empty podium—which moderator Russ Spencer introduced as
-                    Republican Senator David Perdue—several questions, and then
-                    answered them himself.
-                  </p>
-                </div>
-              </div>
-              <div class="no-med-view no-mobile-view">
-                <h3 class="main-title-h">MY TURN</h3>
-                <div class="row">
-                  <div class="col">
-                    <img
-                      src="./assets/myturn23.jpg"
-                      class="card-img-top"
-                      alt="the mini stroke"
-                    />
-                    <p class="box-text-gr">
-                      'I'm 23, I Had a Mini Stroke Days After Contracting COVID'
-                    </p>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./assets/babycovid.png"
-                      class="card-img-top"
-                      alt="the baby"
-                    />
-                    <p class="box-text-gr">
-                      'My Baby Had a Medical Emergency During COVID'
-                    </p>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./assets/12yearold.png"
-                      class="card-img-top"
-                      alt="the 12 year old"
-                    />
-                    <p class="box-text-gr">
-                      'I'm 12. Next Year I'm Studying Aerospace Engineering at
-                      University'
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      There Are 101,190 People Currently Hospitalized with
+                      COVID-19 Nationwide
+                    </h3>
+                    <p class="card-text">
+                      The current number of hospitalizations topped 100,000 this
+                      week, as the U.S. also recorded its highest daily case
+                      count on record.
                     </p>
                   </div>
                 </div>
-              </div>
-              <div class="no-med-view no-mobile-view">
-                <h3 class="main-title-h">CULTURE AND TRAVEL</h3>
-                <div class="row">
-                  <div class="col">
-                    <img
-                      src="./assets/monolith.jpeg"
-                      class="card-img-top"
-                      alt="the monolith"
-                    />
-                    <p class="box-text-gr">
-                      The Monoliths: A Timeline of the Mysterious Objects That
-                      Keep Appearing
+                <div class="no-med-view no-mobile-view" style="margin: 40px 0">
+                  <h5 class="font-weight-bold">
+                    Fauci's Timeline for When He Thinks America Will Beat COVID
+                  </h5>
+                  <hr style="border: 1px solid black" />
+                  <h5 class="font-weight-bold">
+                    Fact Check: Do You Need a COVID-19 Vaccine If You Already
+                    Have Had the Virus
+                  </h5>
+                  <hr style="border: 1px solid black" />
+                  <h5 class="font-weight-bold">
+                    'I'm 23, I Had a Mini Stroke Days After Contracting COVID'
+                  </h5>
+                  <hr style="border: 1px solid black" />
+                  <h5 class="font-weight-bold">
+                    Johns Hopkins Researcher Calls out FDA for Slow COVID
+                    Vaccine Approval
+                  </h5>
+                  <hr style="border: 1px solid black" />
+                  <h5 class="font-weight-bold">
+                    Fact Check: Has COVID-19 Had No Impact on Overall US Deaths
+                    This Year?
+                  </h5>
+                </div>
+                <div class="no-med-view no-mobile-view">
+                  <img
+                    src="./assets/kellytwitter.jpeg"
+                    class="card-img-top img-fluid"
+                    alt="the career"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      Would You Like a Career That Will Make a Real Difference?
+                    </h3>
+                    <p class="card-text">
+                      Would You Like a Career That Will Make a Real Difference?
+                      Stop thinking about being a teacher and get started on
+                      your path to one of the most rewarding careers in the
+                      world. Find out where to get qualified.
                     </p>
                   </div>
-                  <div class="col">
-                    <img
-                      src="./assets/cats.jpeg"
-                      class="card-img-top"
-                      alt="the republican"
-                    />
-                    <p class="box-text-gr">
-                      These Are the Presidents Who Had Cats in the White House
+                </div>
+                <div class="no-med-view no-mobile-view">
+                  <img
+                    src="./assets/moneymoves.jpeg"
+                    class="card-img-top img-fluid"
+                    alt="the business school"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      Why is an EQUIS Accreditation Important for a Business
+                      School?
+                    </h3>
+                    <p class="card-text">
+                      With over 15,000 business schools worldwide, it is
+                      increasingly difficult for prospective students,
+                      executives, corporate partners and other stakeholders to
+                      recognize a quality institution. That’s where an EQUIS
+                      Accreditation comes in. Find out more.
                     </p>
                   </div>
-                  <div class="col">
-                    <img
-                      src="./assets/bestepisodes.jpeg"
-                      class="card-img-top"
-                      alt="the 100 best"
-                    />
-                    <p class="box-text-gr">100 Best TV Episodes of All Time</p>
-                  </div>
-                </div>
-              </div>
-              <div class="more-stories-sec no-med-view no-mobile-view">
-                <h2 class="main-title-h">MORE STORIES</h2>
-                <hr />
-                <div>
-                  <img
-                    src="./assets/giluianimask.jpeg"
-                    class="float-left"
-                    alt="the hearing"
-                  />
-                  <h3 class="stories-title">
-                    Giuliani Asked Hearing Witness to Remove Mask Days Before
-                    Testing Positive
-                  </h3>
-                  <p class="stories-text">
-                    President Trump's attorney has previously been criticized
-                    for publicly spreading false claims about the coronavirus
-                    and attending events without a mask.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/trumpsneak.jpeg"
-                    class="float-left"
-                    alt="the secretary"
-                  />
-                  <h3 class="stories-title">
-                    Fox News Host Confronts HHS Secretary Over Trump's COVID
-                    Response
-                  </h3>
-                  <p class="stories-text">
-                    Trump "didn't wear a mask in public for three months until
-                    July," Chris Wallace said, criticizing the president while
-                    interviewing Secretary of Health and Human Services Alex
-                    Azar.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/90percent.jpeg"
-                    class="float-left"
-                    alt="the pandemic"
-                  />
-                  <h3 class="stories-title">
-                    Trump's Vaccine Chief Calls Biden's 100-Day Mask Plan 'a
-                    Good Idea'
-                  </h3>
-                  <p class="stories-text">
-                    "This pandemic is ravaging the country. We need to take out
-                    precautions, wear our masks, wash our hands, keep our
-                    distance, remain aware that this virus is a killer," said
-                    Moncef Slaoui.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/stayat.jpeg"
-                    class="float-left"
-                    alt="the stay at home order"
-                  />
-                  <h3 class="stories-title">
-                    California Stay-at-Home Orders 'A Matter of Personal
-                    Responsibility'
-                  </h3>
-                  <p class="stories-text">
-                    Orange County Sheriff Don Barnes said: "To put the onus on
-                    law enforcement to enforce these orders against ... while at
-                    the same time ... taking away tools to do our jobs, is both
-                    contradictory and disingenuous."
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/republican.jpeg"
-                    class="float-left"
-                    alt="the impeachment"
-                  />
-                  <h3 class="stories-title">
-                    Collins: Trump 'Had to Live Through Impeachment,' Dems Can
-                    Wait on Results
-                  </h3>
-                  <p class="stories-text">
-                    Congressman Doug Collins said he and Trump had "had to live
-                    through" impeachment and "not my president" hashtags for
-                    four years—thus, Democrats can deal with a few months of
-                    election challenges.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/cyber.jpeg"
-                    class="float-left"
-                    alt="the cyber-security"
-                  />
-                  <h3 class="stories-title">
-                    Cybersecurity Head Fired by Trump Says GOP Need to Accept
-                    Biden's Win
-                  </h3>
-                  <p class="stories-text">
-                    Chris Krebs pointed out that Republicans have set a double
-                    standard, as they've "accepted their outcomes and their
-                    races" in the House of Representatives.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/dakota.jpeg"
-                    class="float-left"
-                    alt="the ICU"
-                  />
-                  <h3 class="stories-title">
-                    Some South Dakotans With COVID Flown Out of State Amid ICU
-                    Shortage
-                  </h3>
-                  <p class="stories-text">
-                    The state's three major hospitals have reported limited ICU
-                    space.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/barowner.jpeg"
-                    class="float-left"
-                    alt="the NY deputy"
-                  />
-                  <h3 class="stories-title">
-                    Bar Owner Drives Into NY Deputy Trying to Arrest Him Over
-                    COVID Violations
-                  </h3>
-                  <p class="stories-text">
-                    "We will not back down! You have not scared us!! The world
-                    is watching and it's time for everyone to wake up!" Mac's
-                    Public House said in a Facebook post.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/defund.jpeg"
-                    class="float-left"
-                    alt="the democrats"
-                  />
-                  <h3 class="stories-title">
-                    Pollster Suggests Democrats Should Avoid 'Defund the Police'
-                    to Win in 2022
-                  </h3>
-                  <p class="stories-text">
-                    Demands to "defund the police" came in response to multiple
-                    widely publicized deaths of Black Americans involving police
-                    officers.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/fraud.jpeg"
-                    class="float-left"
-                    alt="the allegation"
-                  />
-                  <h3 class="stories-title">
-                    GA Officials: Voter Fraud Allegations Belong in 'Kraken's
-                    Realm of Mythos'
-                  </h3>
-                  <p class="stories-text">
-                    "Certifying the expressed will of the electorate is not
-                    irreparable harm, but rather inevitable and legally required
-                    within our constitutional framework," lawyers for Georgia
-                    wrote in a motion to dismiss Powell's lawsuit.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/rnc.jpeg"
-                    class="float-left"
-                    alt="the rnc"
-                  />
-                  <h3 class="stories-title">
-                    RNC Chair Accuses Dems of Obstruction Amid Voting
-                    Irregularity Claims
-                  </h3>
-                  <p class="stories-text">
-                    Ronna McDaniel—chairwoman of the Republican National
-                    Committee and vocal supporter of President Donald
-                    Trump—suggested that Democrats are hampering conservative
-                    efforts to challenge results of the general election in a
-                    new op-ed.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/monolith.jpeg"
-                    class="float-left"
-                    alt="the monolith"
-                  />
-                  <h3 class="stories-title">
-                    Another Mysterious Monolith Appears, This Time in The
-                    Netherlands
-                  </h3>
-                  <p class="stories-text">
-                    The discovery comes after several metallic obelisks were
-                    discovered in remote locations in Utah, California and
-                    Romania.
-                  </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 debat-stories">
-              <h2 class="main-title-h">THE DEBATE</h2>
-              <div class="opinion-sec">
-                <div class="opinion-item">
-                  <img src="./assets/jonathan-tobi.png" alt="the concede" />
-                  <p class="font-weight-bold">
-                    Should Trump Concede? Yes<br />
-                    <span style="font-size: 14px">BY JONATHAN TOBIN</span>
-                  </p>
-                </div>
-                <hr style="border-top: 1px solid black" />
-                <div class="opinion-item">
-                  <img src="./assets/spencer-klava.png" alt="the concede" />
-                  <p class="font-weight-bold">
-                    Should Trump Concede? Not Yet<br />
-                    <span style="font-size: 14px">BY SPENCER KLAVAN</span>
-                  </p>
-                </div>
-              </div>
-              <div class="opinion-sec">
-                <h2 class="main-title-h">OPINION</h2>
-                <div class="opinion-item">
-                  <img src="./assets/amhed_ross.jpeg" alt="the freedom" />
-                  <p class="font-weight-bold">
-                    Cambridge Should Preserve the Freedom to Disrespect<br />
-                    <span style="font-size: 14px"
-                      >By Arif Ahmed and Ross Anderson</span
-                    >
-                  </p>
-                </div>
-                <hr />
-                <div class="opinion-item">
-                  <img src="./assets/tomrogers.jpeg" alt="the nightmare" />
-                  <p class="font-weight-bold">
-                    The Electoral College Nightmare That Could Have Happened<br />
-                    <span style="font-size: 14px">By Tom Rogers</span>
-                  </p>
-                </div>
-                <hr />
-                <div class="opinion-item">
-                  <img src="./assets/joshhammer.jpeg" alt="the stopping" />
-                  <p class="font-weight-bold">
-                    There's No Stopping America's Political Realignment<br />
-                    <span style="font-size: 14px">By Josh Hammer</span>
-                  </p>
-                </div>
-                <hr />
-                <div class="opinion-item">
-                  <img src="./assets/honk-gilman.jpeg" alt="the cabinet" />
-                  <p class="font-weight-bold">
-                    Why Biden's Cabinet Picks Shouldn't Keep Their Client Lists
-                    Secret<br />
-                    <span style="font-size: 14px">By Hank Gilman</span>
-                  </p>
-                </div>
-                <hr />
-                <div class="opinion-item">
-                  <img
-                    src="./assets/richard-goldberg.jpeg"
-                    alt="the time now"
-                  />
-                  <p class="font-weight-bold">
-                    The Time Is Now for Saudi Arabia To Normalize Relations With
-                    Israel<br />
-                    <span style="font-size: 14px">By Richard Goldberg</span>
-                  </p>
-                </div>
-                <hr />
-                <div class="opinion-item">
-                  <img src="./assets/abigael-shier.jpeg" alt="the court" />
-                  <p class="font-weight-bold">
-                    A British Court Breaks Gender Fever<br />
-                    <span style="font-size: 14px">By Abigail Shrier</span>
-                  </p>
-                </div>
-                <hr />
-                <div class="opinion-item">
-                  <img src="./assets/richard-goldberg.jpeg" alt="" />
-                  <p class="font-weight-bold">
-                    San Francisco Jon Ossoff<br />
-                    <span style="font-size: 14px">By Newt Gingrich</span>
-                  </p>
-                </div>
-              </div>
-              <div class="cards-sec-op">
-                <div class="op-sec-item">
-                  <img
-                    src="./assets/netherlands.jpeg"
-                    class="card-img-top"
-                    alt=""
-                  />
-                  <h3 class="card-title">
-                    The Netherlands - Home of Innovation
-                  </h3>
-                  <p class="card-text">
-                    With a reputation as one of Europe’s most connected,
-                    digitized, and innovative economies, the Netherlands
-                    recently overtook the UK as the top recipient of FDI inflows
-                    in Europe.
-                  </p>
-                </div>
-                <div class="op-sec-item">
-                  <img src="./assets/berlin.jpeg" class="card-img-top" alt="" />
-                  <h3 class="card-title">Berlin Partners Power INNOVATE</h3>
-                  <p class="card-text">
-                    Berlin has long been a place where new technologies develop
-                    at a particularly rapid pace. In the early years, the city
-                    was a special breeding ground for blockchain technology with
-                    its subversive flair. Today, the technology has become an
-                    important economic factor with countless use-cases. See the
-                    latest in crypto + blockchain and business.
-                  </p>
-                </div>
-                <div class="op-sec-item">
-                  <img
-                    src="./assets/careers.jpeg"
-                    class="card-img-top"
-                    alt=""
-                  />
-                  <h3 class="card-title">
-                    Why are these careers so highly sought after?
-                  </h3>
-                  <p class="card-text">
-                    These are some of the most highly rated careers areas today.
-                    How do you get started in them?
-                  </p>
-                </div>
-                <div class="op-sec-item">
-                  <img
-                    src="./assets/nursinghomes.jpeg"
-                    class="card-img-top"
-                    alt="the nursing home"
-                  />
-                  <h3 class="card-title">America's Best Nursing Homes 2021</h3>
-                  <p class="card-text">
-                    In partnership with Statista, we established a ranking
-                    providing information and insights to help you during this
-                    challenging time.
-                  </p>
-                </div>
-                <div class="op-sec-item">
-                  <img
-                    src="./assets/artdesign.jpeg"
-                    class="card-img-top"
-                    alt="the leading art"
-                  />
-                  <h3 class="card-title">
-                    Who has the Leading Art, Design and Architecture Programs in
-                    2020?
-                  </h3>
-                  <p class="card-text">
-                    The best Art, Design and Architecture schools use a recipe
-                    consisting of a blend of ingredients. Read more here.
-                  </p>
-                </div>
-                <div class="op-sec-item">
-                  <img
-                    src="./assets/millenials.jpeg"
-                    class="card-img-top"
-                    alt="the long distance"
-                  />
-                  <h3 class="card-title">
-                    This Startup Is Making Long Distance Real Estate Investing
-                    Possible for Millennials
-                  </h3>
-                  <p class="card-text">
-                    75% of Roofstock users are first-time real estate investors,
-                    and more than half are under 35.
-                  </p>
-                </div>
-                <div class="op-sec-item">
-                  <img
-                    src="./assets/addiction.jpeg"
-                    class="card-img-top"
-                    alt="the addiction treatment"
-                  />
-                  <h3 class="card-title">
-                    America's Best Addiction Treatment Centers 2020
-                  </h3>
-                  <p class="card-text">
-                    Newsweek partnered with global market research firm Statista
-                    Inc. to rank the best U.S. treatment facilities that focus
-                    on addiction.
-                  </p>
-                </div>
-              </div>
-              <div class="more-stories-sec no-lg-view med-fix">
-                <h2 class="main-title-h">MORE STORIES</h2>
-                <hr />
+            <div class="col col-sm col-md col-lg">
+              <div class="top-stories">
+                <h2 class="main-title-h">TOP STORY</h2>
                 <div>
                   <img
-                    src="./assets/giluianimask.jpeg"
-                    class="float-left"
-                    alt="the hearing"
+                    src="./assets/lofeller.jpeg"
+                    class="card-img-top img-fluid"
+                    alt="the lofeller"
                   />
-                  <h3 class="stories-title">
-                    Giuliani Asked Hearing Witness to Remove Mask Days Before
-                    Testing Positive
-                  </h3>
-                  <p class="stories-text">
-                    President Trump's attorney has previously been criticized
-                    for publicly spreading false claims about the coronavirus
-                    and attending events without a mask.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/trumpsneak.jpeg"
-                    class="float-left"
-                    alt="the secretary"
-                  />
-                  <h3 class="stories-title">
-                    Fox News Host Confronts HHS Secretary Over Trump's COVID
-                    Response
-                  </h3>
-                  <p class="stories-text">
-                    Trump "didn't wear a mask in public for three months until
-                    July," Chris Wallace said, criticizing the president while
-                    interviewing Secretary of Health and Human Services Alex
-                    Azar.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/90percent.jpeg"
-                    class="float-left"
-                    alt="the pandemic"
-                  />
-                  <h3 class="stories-title">
-                    Trump's Vaccine Chief Calls Biden's 100-Day Mask Plan 'a
-                    Good Idea'
-                  </h3>
-                  <p class="stories-text">
-                    "This pandemic is ravaging the country. We need to take out
-                    precautions, wear our masks, wash our hands, keep our
-                    distance, remain aware that this virus is a killer," said
-                    Moncef Slaoui.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/stayat.jpeg"
-                    class="float-left"
-                    alt="the stay at home order"
-                  />
-                  <h3 class="stories-title">
-                    California Stay-at-Home Orders 'A Matter of Personal
-                    Responsibility'
-                  </h3>
-                  <p class="stories-text">
-                    Orange County Sheriff Don Barnes said: "To put the onus on
-                    law enforcement to enforce these orders against ... while at
-                    the same time ... taking away tools to do our jobs, is both
-                    contradictory and disingenuous."
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/republican.jpeg"
-                    class="float-left"
-                    alt="the impeachment"
-                  />
-                  <h3 class="stories-title">
-                    Collins: Trump 'Had to Live Through Impeachment,' Dems Can
-                    Wait on Results
-                  </h3>
-                  <p class="stories-text">
-                    Congressman Doug Collins said he and Trump had "had to live
-                    through" impeachment and "not my president" hashtags for
-                    four years—thus, Democrats can deal with a few months of
-                    election challenges.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/cyber.jpeg"
-                    class="float-left"
-                    alt="the cyber-security"
-                  />
-                  <h3 class="stories-title">
-                    Cybersecurity Head Fired by Trump Says GOP Need to Accept
-                    Biden's Win
-                  </h3>
-                  <p class="stories-text">
-                    Chris Krebs pointed out that Republicans have set a double
-                    standard, as they've "accepted their outcomes and their
-                    races" in the House of Representatives.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/dakota.jpeg"
-                    class="float-left"
-                    alt="the ICU"
-                  />
-                  <h3 class="stories-title">
-                    Some South Dakotans With COVID Flown Out of State Amid ICU
-                    Shortage
-                  </h3>
-                  <p class="stories-text">
-                    The state's three major hospitals have reported limited ICU
-                    space.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/barowner.jpeg"
-                    class="float-left"
-                    alt="the NY deputy"
-                  />
-                  <h3 class="stories-title">
-                    Bar Owner Drives Into NY Deputy Trying to Arrest Him Over
-                    COVID Violations
-                  </h3>
-                  <p class="stories-text">
-                    "We will not back down! You have not scared us!! The world
-                    is watching and it's time for everyone to wake up!" Mac's
-                    Public House said in a Facebook post.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/defund.jpeg"
-                    class="float-left"
-                    alt="the democrats"
-                  />
-                  <h3 class="stories-title">
-                    Pollster Suggests Democrats Should Avoid 'Defund the Police'
-                    to Win in 2022
-                  </h3>
-                  <p class="stories-text">
-                    Demands to "defund the police" came in response to multiple
-                    widely publicized deaths of Black Americans involving police
-                    officers.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/fraud.jpeg"
-                    class="float-left"
-                    alt="the allegation"
-                  />
-                  <h3 class="stories-title">
-                    GA Officials: Voter Fraud Allegations Belong in 'Kraken's
-                    Realm of Mythos'
-                  </h3>
-                  <p class="stories-text">
-                    "Certifying the expressed will of the electorate is not
-                    irreparable harm, but rather inevitable and legally required
-                    within our constitutional framework," lawyers for Georgia
-                    wrote in a motion to dismiss Powell's lawsuit.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/rnc.jpeg"
-                    class="float-left"
-                    alt="the rnc"
-                  />
-                  <h3 class="stories-title">
-                    RNC Chair Accuses Dems of Obstruction Amid Voting
-                    Irregularity Claims
-                  </h3>
-                  <p class="stories-text">
-                    Ronna McDaniel—chairwoman of the Republican National
-                    Committee and vocal supporter of President Donald
-                    Trump—suggested that Democrats are hampering conservative
-                    efforts to challenge results of the general election in a
-                    new op-ed.
-                  </p>
-                </div>
-                <hr />
-                <div class="clearfix">
-                  <img
-                    src="./assets/monolith.jpeg"
-                    class="float-left"
-                    alt="the monolith"
-                  />
-                  <h3 class="stories-title">
-                    Another Mysterious Monolith Appears, This Time in The
-                    Netherlands
-                  </h3>
-                  <p class="stories-text">
-                    The discovery comes after several metallic obelisks were
-                    discovered in remote locations in Utah, California and
-                    Romania.
-                  </p>
-                </div>
-              </div>
-              <div class="no-med-view turn-ct">
-                <h3 class="main-title-h">MY TURN</h3>
-                <div class="row">
-                  <div class="col">
-                    <img
-                      src="./assets/myturn23.jpg"
-                      class="card-img-top"
-                      alt="the mini stroke"
-                    />
-                    <p class="box-text-gr">
-                      'I'm 23, I Had a Mini Stroke Days After Contracting COVID'
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      Loeffler Declines to Defend Her Ally Governor Kemp From
+                      Trump's Attacks
+                    </h3>
+                    <p class="card-text">
+                      Moderators asked the incumbent Georgia Republican senator
+                      if she supported Trump's attacks on Kemp three separate
+                      times during Sunday's debate.
                     </p>
                   </div>
-                  <div class="col">
+                  <div class="no-med-view no-mobile-view">
                     <img
-                      src="./assets/babycovid.png"
-                      class="card-img-top"
-                      alt="the baby"
+                      src="./assets/kelly.jpeg"
+                      class="card-img-top img-fluid"
+                      alt="the senate candidate"
                     />
-                    <p class="box-text-gr">
-                      'My Baby Had a Medical Emergency During COVID'
-                    </p>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./assets/12yearold.png"
-                      class="card-img-top"
-                      alt="the 12 year old"
-                    />
-                    <p class="box-text-gr">
-                      'I'm 12. Next Year I'm Studying Aerospace Engineering at
-                      University'
+                    <h3 class="card-title">
+                      Loeffler Dodges Question on Election Rigging as Ossoff
+                      Debates Empty Room
+                    </h3>
+                    <p class="card-text">
+                      Georgia Democratic Senate candidate Jon Ossoff asked the
+                      empty podium—which moderator Russ Spencer introduced as
+                      Republican Senator David Perdue—several questions, and
+                      then answered them himself.
                     </p>
                   </div>
                 </div>
-              </div>
-              <div class="no-med-view turn-ct">
-                <h3 class="main-title-h">CULTURE AND TRAVEL</h3>
-                <div class="row">
-                  <div class="col">
+                <div class="no-med-view no-mobile-view">
+                  <h3 class="main-title-h">MY TURN</h3>
+                  <div class="row">
+                    <div class="col">
+                      <img
+                        src="./assets/myturn23.jpg"
+                        class="card-img-top img-fluid"
+                        alt="the mini stroke"
+                      />
+                      <p class="box-text-gr">
+                        'I'm 23, I Had a Mini Stroke Days After Contracting
+                        COVID'
+                      </p>
+                    </div>
+                    <div class="col">
+                      <img
+                        src="./assets/babycovid.png"
+                        class="card-img-top img-fluid"
+                        alt="the baby"
+                      />
+                      <p class="box-text-gr">
+                        'My Baby Had a Medical Emergency During COVID'
+                      </p>
+                    </div>
+                    <div class="col">
+                      <img
+                        src="./assets/12yearold.png"
+                        class="card-img-top img-fluid"
+                        alt="the 12 year old"
+                      />
+                      <p class="box-text-gr">
+                        'I'm 12. Next Year I'm Studying Aerospace Engineering at
+                        University'
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="no-med-view no-mobile-view">
+                  <h3 class="main-title-h">CULTURE AND TRAVEL</h3>
+                  <div class="row">
+                    <div class="col">
+                      <img
+                        src="./assets/monolith.jpeg"
+                        class="card-img-top img-fluid"
+                        alt="the monolith"
+                      />
+                      <p class="box-text-gr">
+                        The Monoliths: A Timeline of the Mysterious Objects That
+                        Keep Appearing
+                      </p>
+                    </div>
+                    <div class="col">
+                      <img
+                        src="./assets/cats.jpeg"
+                        class="card-img-top img-fluid"
+                        alt="the republican"
+                      />
+                      <p class="box-text-gr">
+                        These Are the Presidents Who Had Cats in the White House
+                      </p>
+                    </div>
+                    <div class="col">
+                      <img
+                        src="./assets/bestepisodes.jpeg"
+                        class="card-img-top img-fluid"
+                        alt="the 100 best"
+                      />
+                      <p class="box-text-gr">
+                        100 Best TV Episodes of All Time
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="more-stories-sec no-med-view no-mobile-view">
+                  <h2 class="main-title-h">MORE STORIES</h2>
+                  <hr />
+                  <div>
+                    <img
+                      src="./assets/giluianimask.jpeg"
+                      class="float-left img-fluid"
+                      alt="the hearing"
+                    />
+                    <h3 class="stories-title">
+                      Giuliani Asked Hearing Witness to Remove Mask Days Before
+                      Testing Positive
+                    </h3>
+                    <p class="stories-text">
+                      President Trump's attorney has previously been criticized
+                      for publicly spreading false claims about the coronavirus
+                      and attending events without a mask.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/trumpsneak.jpeg"
+                      class="float-left img-fluid"
+                      alt="the secretary"
+                    />
+                    <h3 class="stories-title">
+                      Fox News Host Confronts HHS Secretary Over Trump's COVID
+                      Response
+                    </h3>
+                    <p class="stories-text">
+                      Trump "didn't wear a mask in public for three months until
+                      July," Chris Wallace said, criticizing the president while
+                      interviewing Secretary of Health and Human Services Alex
+                      Azar.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/90percent.jpeg"
+                      class="float-left img-fluid"
+                      alt="the pandemic"
+                    />
+                    <h3 class="stories-title">
+                      Trump's Vaccine Chief Calls Biden's 100-Day Mask Plan 'a
+                      Good Idea'
+                    </h3>
+                    <p class="stories-text">
+                      "This pandemic is ravaging the country. We need to take
+                      out precautions, wear our masks, wash our hands, keep our
+                      distance, remain aware that this virus is a killer," said
+                      Moncef Slaoui.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/stayat.jpeg"
+                      class="float-left img-fluid"
+                      alt="the stay at home order"
+                    />
+                    <h3 class="stories-title">
+                      California Stay-at-Home Orders 'A Matter of Personal
+                      Responsibility'
+                    </h3>
+                    <p class="stories-text">
+                      Orange County Sheriff Don Barnes said: "To put the onus on
+                      law enforcement to enforce these orders against ... while
+                      at the same time ... taking away tools to do our jobs, is
+                      both contradictory and disingenuous."
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/republican.jpeg"
+                      class="float-left img-fluid"
+                      alt="the impeachment"
+                    />
+                    <h3 class="stories-title">
+                      Collins: Trump 'Had to Live Through Impeachment,' Dems Can
+                      Wait on Results
+                    </h3>
+                    <p class="stories-text">
+                      Congressman Doug Collins said he and Trump had "had to
+                      live through" impeachment and "not my president" hashtags
+                      for four years—thus, Democrats can deal with a few months
+                      of election challenges.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/cyber.jpeg"
+                      class="float-left img-fluid"
+                      alt="the cyber-security"
+                    />
+                    <h3 class="stories-title">
+                      Cybersecurity Head Fired by Trump Says GOP Need to Accept
+                      Biden's Win
+                    </h3>
+                    <p class="stories-text">
+                      Chris Krebs pointed out that Republicans have set a double
+                      standard, as they've "accepted their outcomes and their
+                      races" in the House of Representatives.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/dakota.jpeg"
+                      class="float-left img-fluid"
+                      alt="the ICU"
+                    />
+                    <h3 class="stories-title">
+                      Some South Dakotans With COVID Flown Out of State Amid ICU
+                      Shortage
+                    </h3>
+                    <p class="stories-text">
+                      The state's three major hospitals have reported limited
+                      ICU space.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/barowner.jpeg"
+                      class="float-left img-fluid"
+                      alt="the NY deputy"
+                    />
+                    <h3 class="stories-title">
+                      Bar Owner Drives Into NY Deputy Trying to Arrest Him Over
+                      COVID Violations
+                    </h3>
+                    <p class="stories-text">
+                      "We will not back down! You have not scared us!! The world
+                      is watching and it's time for everyone to wake up!" Mac's
+                      Public House said in a Facebook post.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/defund.jpeg"
+                      class="float-left img-fluid"
+                      alt="the democrats"
+                    />
+                    <h3 class="stories-title">
+                      Pollster Suggests Democrats Should Avoid 'Defund the
+                      Police' to Win in 2022
+                    </h3>
+                    <p class="stories-text">
+                      Demands to "defund the police" came in response to
+                      multiple widely publicized deaths of Black Americans
+                      involving police officers.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/fraud.jpeg"
+                      class="float-left img-fluid"
+                      alt="the allegation"
+                    />
+                    <h3 class="stories-title">
+                      GA Officials: Voter Fraud Allegations Belong in 'Kraken's
+                      Realm of Mythos'
+                    </h3>
+                    <p class="stories-text">
+                      "Certifying the expressed will of the electorate is not
+                      irreparable harm, but rather inevitable and legally
+                      required within our constitutional framework," lawyers for
+                      Georgia wrote in a motion to dismiss Powell's lawsuit.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/rnc.jpeg"
+                      class="float-left img-fluid"
+                      alt="the rnc"
+                    />
+                    <h3 class="stories-title">
+                      RNC Chair Accuses Dems of Obstruction Amid Voting
+                      Irregularity Claims
+                    </h3>
+                    <p class="stories-text">
+                      Ronna McDaniel—chairwoman of the Republican National
+                      Committee and vocal supporter of President Donald
+                      Trump—suggested that Democrats are hampering conservative
+                      efforts to challenge results of the general election in a
+                      new op-ed.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
                     <img
                       src="./assets/monolith.jpeg"
-                      class="card-img-top"
+                      class="float-left img-fluid"
                       alt="the monolith"
                     />
-                    <p class="box-text-gr">
-                      The Monoliths: A Timeline of the Mysterious Objects That
-                      Keep Appearing
+                    <h3 class="stories-title">
+                      Another Mysterious Monolith Appears, This Time in The
+                      Netherlands
+                    </h3>
+                    <p class="stories-text">
+                      The discovery comes after several metallic obelisks were
+                      discovered in remote locations in Utah, California and
+                      Romania.
                     </p>
                   </div>
-                  <div class="col">
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg">
+              <div class="debat-stories">
+                <h2 class="main-title-h">THE DEBATE</h2>
+                <div class="opinion-sec">
+                  <div class="opinion-item">
                     <img
-                      src="./assets/cats.jpeg"
-                      class="card-img-top"
-                      alt="the republican"
+                      src="./assets/jonathan-tobi.png"
+                      class="img-fluid"
+                      alt="the concede"
                     />
-                    <p class="box-text-gr">
-                      These Are the Presidents Who Had Cats in the White House
+                    <p class="font-weight-bold">
+                      Should Trump Concede? Yes<br />
+                      <span style="font-size: 14px">BY JONATHAN TOBIN</span>
                     </p>
                   </div>
-                  <div class="col">
+                  <div class="vs">
+                    <hr style="border-top: 1px solid darkgray" />
+                    <div><span>VS</span></div>
+                  </div>
+                  <div class="opinion-item">
                     <img
-                      src="./assets/bestepisodes.jpeg"
-                      class="card-img-top"
-                      alt="the 100 best"
+                      src="./assets/spencer-klava.png"
+                      class="img-fluid"
+                      alt="the concede"
                     />
-                    <p class="box-text-gr">100 Best TV Episodes of All Time</p>
+                    <p class="font-weight-bold">
+                      Should Trump Concede? Not Yet<br />
+                      <span style="font-size: 14px">BY SPENCER KLAVAN</span>
+                    </p>
+                  </div>
+                </div>
+                <hr style="border-top: 1px solid darkgray" />
+                <div class="opinion-sec">
+                  <h2 class="main-title-h">OPINION</h2>
+                  <div class="opinion-item">
+                    <img
+                      src="./assets/amhed_ross.jpeg"
+                      class="img-fluid"
+                      alt="the freedom"
+                    />
+                    <p class="font-weight-bold">
+                      Cambridge Should Preserve the Freedom to Disrespect<br />
+                      <span style="font-size: 14px"
+                        >By Arif Ahmed and Ross Anderson</span
+                      >
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="opinion-item">
+                    <img
+                      src="./assets/tomrogers.jpeg"
+                      class="img-fluid"
+                      alt="the nightmare"
+                    />
+                    <p class="font-weight-bold">
+                      The Electoral College Nightmare That Could Have
+                      Happened<br />
+                      <span style="font-size: 14px">By Tom Rogers</span>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="opinion-item">
+                    <img
+                      src="./assets/joshhammer.jpeg"
+                      class="img-fluid"
+                      alt="the stopping"
+                    />
+                    <p class="font-weight-bold">
+                      There's No Stopping America's Political Realignment<br />
+                      <span style="font-size: 14px">By Josh Hammer</span>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="opinion-item">
+                    <img
+                      src="./assets/honk-gilman.jpeg"
+                      class="img-fluid"
+                      alt="the cabinet"
+                    />
+                    <p class="font-weight-bold">
+                      Why Biden's Cabinet Picks Shouldn't Keep Their Client
+                      Lists Secret<br />
+                      <span style="font-size: 14px">By Hank Gilman</span>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="opinion-item">
+                    <img
+                      src="./assets/richard-goldberg.jpeg"
+                      class="img-fluid"
+                      alt="the time now"
+                    />
+                    <p class="font-weight-bold">
+                      The Time Is Now for Saudi Arabia To Normalize Relations
+                      With Israel<br />
+                      <span style="font-size: 14px">By Richard Goldberg</span>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="opinion-item">
+                    <img
+                      src="./assets/abigael-shier.jpeg"
+                      class="img-fluid"
+                      alt="the court"
+                    />
+                    <p class="font-weight-bold">
+                      A British Court Breaks Gender Fever<br />
+                      <span style="font-size: 14px">By Abigail Shrier</span>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="opinion-item">
+                    <img
+                      src="./assets/richard-goldberg.jpeg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <p class="font-weight-bold">
+                      San Francisco Jon Ossoff<br />
+                      <span style="font-size: 14px">By Newt Gingrich</span>
+                    </p>
+                  </div>
+                  <!-- <div class="opinion-form flex-xs">
+                    <ul class="logo-n text-center form-text">
+                      <li>
+                        <span
+                          ><img
+                            src="https://g.newsweek.com/www/images/logo-n1.svg"
+                            style="background-color: red"
+                            class="n-logo img-fluid"
+                            alt="N"
+                        /></span>
+                      </li>
+                      <li>
+                        <span class="subscribe"
+                          >START YOUR DAY WITH OUR TOP 5 ARTICLES</span
+                        >
+                      </li>
+                    </ul>
+                    <form>
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="exampleInputEmail1"
+                          placeholder="Email Address"
+                        />
+                      </div>
+                      <button type="submit" class="btn btn-primary newl-btn">
+                        FREE SIGN UP >
+                      </button>
+                    </form>
+                  </div> -->
+                </div>
+                <div class="cards-sec-op">
+                  <div class="op-sec-item">
+                    <img
+                      src="./assets/netherlands.jpeg"
+                      class="card-img-top img-fluid"
+                      alt=""
+                    />
+                    <h3 class="card-title">
+                      The Netherlands - Home of Innovation
+                    </h3>
+                    <p class="card-text">
+                      With a reputation as one of Europe’s most connected,
+                      digitized, and innovative economies, the Netherlands
+                      recently overtook the UK as the top recipient of FDI
+                      inflows in Europe.
+                    </p>
+                  </div>
+                  <div class="op-sec-item">
+                    <img
+                      src="./assets/berlin.jpeg"
+                      class="card-img-top img-fluid"
+                      alt=""
+                    />
+                    <h3 class="card-title">Berlin Partners Power INNOVATE</h3>
+                    <p class="card-text">
+                      Berlin has long been a place where new technologies
+                      develop at a particularly rapid pace. In the early years,
+                      the city was a special breeding ground for blockchain
+                      technology with its subversive flair. Today, the
+                      technology has become an important economic factor with
+                      countless use-cases. See the latest in crypto + blockchain
+                      and business.
+                    </p>
+                  </div>
+                  <div class="op-sec-item">
+                    <img
+                      src="./assets/careers.jpeg"
+                      class="card-img-top img-fluid"
+                      alt=""
+                    />
+                    <h3 class="card-title">
+                      Why are these careers so highly sought after?
+                    </h3>
+                    <p class="card-text">
+                      These are some of the most highly rated careers areas
+                      today. How do you get started in them?
+                    </p>
+                  </div>
+                  <div class="op-sec-item">
+                    <img
+                      src="./assets/nursinghomes.jpeg"
+                      class="card-img-top img-fluid"
+                      alt="the nursing home"
+                    />
+                    <h3 class="card-title">
+                      America's Best Nursing Homes 2021
+                    </h3>
+                    <p class="card-text">
+                      In partnership with Statista, we established a ranking
+                      providing information and insights to help you during this
+                      challenging time.
+                    </p>
+                  </div>
+                  <div class="op-sec-item">
+                    <img
+                      src="./assets/artdesign.jpeg"
+                      class="card-img-top img-fluid"
+                      alt="the leading art"
+                    />
+                    <h3 class="card-title">
+                      Who has the Leading Art, Design and Architecture Programs
+                      in 2020?
+                    </h3>
+                    <p class="card-text">
+                      The best Art, Design and Architecture schools use a recipe
+                      consisting of a blend of ingredients. Read more here.
+                    </p>
+                  </div>
+                  <div class="op-sec-item">
+                    <img
+                      src="./assets/millenials.jpeg"
+                      class="card-img-top img-fluid"
+                      alt="the long distance"
+                    />
+                    <h3 class="card-title">
+                      This Startup Is Making Long Distance Real Estate Investing
+                      Possible for Millennials
+                    </h3>
+                    <p class="card-text">
+                      75% of Roofstock users are first-time real estate
+                      investors, and more than half are under 35.
+                    </p>
+                  </div>
+                </div>
+                <div class="more-stories-sec no-lg-view med-fix">
+                  <h2 class="main-title-h">MORE STORIES</h2>
+                  <hr />
+                  <div>
+                    <img
+                      src="./assets/giluianimask.jpeg"
+                      class="float-left img-fluid"
+                      alt="the hearing"
+                    />
+                    <h3 class="stories-title">
+                      Giuliani Asked Hearing Witness to Remove Mask Days Before
+                      Testing Positive
+                    </h3>
+                    <p class="stories-text">
+                      President Trump's attorney has previously been criticized
+                      for publicly spreading false claims about the coronavirus
+                      and attending events without a mask.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/trumpsneak.jpeg"
+                      class="float-left img-fluid"
+                      alt="the secretary"
+                    />
+                    <h3 class="stories-title">
+                      Fox News Host Confronts HHS Secretary Over Trump's COVID
+                      Response
+                    </h3>
+                    <p class="stories-text">
+                      Trump "didn't wear a mask in public for three months until
+                      July," Chris Wallace said, criticizing the president while
+                      interviewing Secretary of Health and Human Services Alex
+                      Azar.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/90percent.jpeg"
+                      class="float-left img-fluid"
+                      alt="the pandemic"
+                    />
+                    <h3 class="stories-title">
+                      Trump's Vaccine Chief Calls Biden's 100-Day Mask Plan 'a
+                      Good Idea'
+                    </h3>
+                    <p class="stories-text">
+                      "This pandemic is ravaging the country. We need to take
+                      out precautions, wear our masks, wash our hands, keep our
+                      distance, remain aware that this virus is a killer," said
+                      Moncef Slaoui.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img src="./assets/stayat.jpeg" class="float-left
+                    class="img-fluid"" alt="the stay at home order" />
+                    <h3 class="stories-title">
+                      California Stay-at-Home Orders 'A Matter of Personal
+                      Responsibility'
+                    </h3>
+                    <p class="stories-text">
+                      Orange County Sheriff Don Barnes said: "To put the onus on
+                      law enforcement to enforce these orders against ... while
+                      at the same time ... taking away tools to do our jobs, is
+                      both contradictory and disingenuous."
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/republican.jpeg"
+                      class="float-left img-fluid"
+                      alt="the impeachment"
+                    />
+                    <h3 class="stories-title">
+                      Collins: Trump 'Had to Live Through Impeachment,' Dems Can
+                      Wait on Results
+                    </h3>
+                    <p class="stories-text">
+                      Congressman Doug Collins said he and Trump had "had to
+                      live through" impeachment and "not my president" hashtags
+                      for four years—thus, Democrats can deal with a few months
+                      of election challenges.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/cyber.jpeg"
+                      class="float-left img-fluid"
+                      alt="the cyber-security"
+                    />
+                    <h3 class="stories-title">
+                      Cybersecurity Head Fired by Trump Says GOP Need to Accept
+                      Biden's Win
+                    </h3>
+                    <p class="stories-text">
+                      Chris Krebs pointed out that Republicans have set a double
+                      standard, as they've "accepted their outcomes and their
+                      races" in the House of Representatives.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/dakota.jpeg"
+                      class="float-left img-fluid"
+                      alt="the ICU"
+                    />
+                    <h3 class="stories-title">
+                      Some South Dakotans With COVID Flown Out of State Amid ICU
+                      Shortage
+                    </h3>
+                    <p class="stories-text">
+                      The state's three major hospitals have reported limited
+                      ICU space.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/barowner.jpeg"
+                      class="float-left img-fluid"
+                      alt="the NY deputy"
+                    />
+                    <h3 class="stories-title">
+                      Bar Owner Drives Into NY Deputy Trying to Arrest Him Over
+                      COVID Violations
+                    </h3>
+                    <p class="stories-text">
+                      "We will not back down! You have not scared us!! The world
+                      is watching and it's time for everyone to wake up!" Mac's
+                      Public House said in a Facebook post.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/defund.jpeg"
+                      class="float-left img-fluid"
+                      alt="the democrats"
+                    />
+                    <h3 class="stories-title">
+                      Pollster Suggests Democrats Should Avoid 'Defund the
+                      Police' to Win in 2022
+                    </h3>
+                    <p class="stories-text">
+                      Demands to "defund the police" came in response to
+                      multiple widely publicized deaths of Black Americans
+                      involving police officers.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/fraud.jpeg"
+                      class="float-left img-fluid"
+                      alt="the allegation"
+                    />
+                    <h3 class="stories-title">
+                      GA Officials: Voter Fraud Allegations Belong in 'Kraken's
+                      Realm of Mythos'
+                    </h3>
+                    <p class="stories-text">
+                      "Certifying the expressed will of the electorate is not
+                      irreparable harm, but rather inevitable and legally
+                      required within our constitutional framework," lawyers for
+                      Georgia wrote in a motion to dismiss Powell's lawsuit.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/rnc.jpeg"
+                      class="float-left img-fluid"
+                      alt="the rnc"
+                    />
+                    <h3 class="stories-title">
+                      RNC Chair Accuses Dems of Obstruction Amid Voting
+                      Irregularity Claims
+                    </h3>
+                    <p class="stories-text">
+                      Ronna McDaniel—chairwoman of the Republican National
+                      Committee and vocal supporter of President Donald
+                      Trump—suggested that Democrats are hampering conservative
+                      efforts to challenge results of the general election in a
+                      new op-ed.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="clearfix">
+                    <img
+                      src="./assets/monolith.jpeg"
+                      class="float-left img-fluid"
+                      alt="the monolith"
+                    />
+                    <h3 class="stories-title">
+                      Another Mysterious Monolith Appears, This Time in The
+                      Netherlands
+                    </h3>
+                    <p class="stories-text">
+                      The discovery comes after several metallic obelisks were
+                      discovered in remote locations in Utah, California and
+                      Romania.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <h2 class="text-center mag-text">IN THE MAGAZINE</h2>
+        <ul class="logo-n text-center">
+          <li>
+            <span
+              ><img
+                src="https://g.newsweek.com/www/images/logo-n1.svg"
+                style="background-color: red"
+                class="n-logo img-fluid"
+                alt="N"
+            /></span>
+          </li>
+          <li>
+            <span class="mag-text">IN THE MAGAZINE</span>
+          </li>
+        </ul>
         <hr class="pick-sepa" />
-        <div class="container mag-cont">
+        <div class="mag-cont">
           <div class="row">
             <div class="col">
               <img
                 src="assets/vacines.png"
-                class="card-img-top thumbnail"
+                class="card-img-top img-fluid"
                 alt=""
               />
               <div class="card-body">
@@ -1058,7 +1070,7 @@
             <div class="col">
               <img
                 src="./assets/iwojima.jpeg"
-                class="card-img-top thumbnail"
+                class="card-img-top img-fluid"
                 alt="the monument"
               />
               <div class="card-body">
@@ -1074,7 +1086,7 @@
             <div class="col">
               <img
                 src="./assets/monuments.jpeg"
-                class="card-img-top thumbnail"
+                class="card-img-top img-fluid"
                 alt="the monument"
               />
               <div class="card-body">
@@ -1090,7 +1102,7 @@
             <div class="col">
               <img
                 src="./assets/holdayfoods.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the holiday foods"
               />
               <div class="card-body">
@@ -1107,7 +1119,7 @@
             <div class="col">
               <img
                 src="./assets/holdayfoods.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the holiday foods"
               />
               <div class="card-body">
@@ -1122,7 +1134,7 @@
             <div class="col">
               <img
                 src="./assets/michigan.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the infocus"
               />
               <div class="card-body">
@@ -1136,14 +1148,27 @@
             <div class="col"></div>
           </div>
         </div>
-        <h2 class="text-center mag-text">IN EDITOR'S PICK</h2>
+        <ul class="logo-n text-center">
+          <li>
+            <span
+              ><img
+                src="https://g.newsweek.com/www/images/logo-n1.svg"
+                style="background-color: red"
+                class="n-logo img-fluid"
+                alt="N"
+            /></span>
+          </li>
+          <li>
+            <span class="mag-text">IN EDITOR'S PICK</span>
+          </li>
+        </ul>
         <hr class="pick-sepa" />
         <div class="container pick-cont">
           <div class="row">
             <div class="col">
               <img
                 src="./assets/faucichristmas.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the covid figures"
               />
               <div class="card-body">
@@ -1161,7 +1186,7 @@
             <div class="col">
               <img
                 src="./assets/90percent.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the 90%"
               />
               <div class="card-body">
@@ -1178,7 +1203,7 @@
             <div class="col">
               <img
                 src="./assets/faucitimeline.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the timeline"
               />
               <div class="card-body">
@@ -1195,7 +1220,7 @@
             <div class="col">
               <img
                 src="./assets/china.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the china trade"
               />
               <div class="card-body">
@@ -1216,7 +1241,7 @@
             <div class="col">
               <img
                 src="./assets/govkemp.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the Governor"
               />
               <div class="card-body">
@@ -1234,7 +1259,7 @@
             <div class="col">
               <img
                 src="./assets/rudycourt.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the permission"
               />
               <div class="card-body">
@@ -1251,7 +1276,7 @@
             <div class="col">
               <img
                 src="./assets/cryingCA.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the restaurant owner"
               />
               <div class="card-body">
@@ -1269,7 +1294,7 @@
             <div class="col">
               <img
                 src="./assets/georgiagop.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the gop"
               />
               <div class="card-body">
@@ -1294,7 +1319,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/dailycases.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="covid cases"
               />
               <div class="card-body">
@@ -1306,7 +1331,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/giluianimask.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the doctor"
               />
               <div class="card-body">
@@ -1319,7 +1344,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/michigan.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the protestors"
                 />
                 <h3 class="stories-title">
@@ -1331,7 +1356,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/giluianimask.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the 40th person"
                 />
                 <h3 class="stories-title">
@@ -1343,7 +1368,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/ex-dayton.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the Governor"
                 />
                 <h3 class="stories-title">
@@ -1364,7 +1389,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/shark.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the shark"
               />
               <div class="card-body">
@@ -1377,7 +1402,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/monolith.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the monolith"
               />
               <div class="card-body">
@@ -1391,7 +1416,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/troops.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the troops"
                 />
                 <h3 class="stories-title">
@@ -1403,7 +1428,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/china-rank.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the china rank"
                 />
                 <h3 class="stories-title">
@@ -1415,7 +1440,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/covidoutbreak.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the covid outbreak"
                 />
                 <h3 class="stories-title">
@@ -1436,7 +1461,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/moneymoves.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the money moves"
               />
               <div class="card-body">
@@ -1448,7 +1473,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/moremoney.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the more money"
               />
               <div class="card-body">
@@ -1461,7 +1486,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/doctor.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the unlicenced doctor"
                 />
                 <h3 class="stories-title">
@@ -1473,7 +1498,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/republican.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the republican"
                 />
                 <h3 class="stories-title">
@@ -1484,7 +1509,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/covidppp.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the covid ppp"
                 />
                 <h3 class="stories-title">
@@ -1504,7 +1529,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/covidoutbreak.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt=""
               />
               <div class="card-body">
@@ -1516,7 +1541,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/snake.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the UK vaccine"
               />
               <div class="card-body">
@@ -1530,7 +1555,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/shark.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the shark"
                 />
                 <h3 class="stories-title">
@@ -1541,7 +1566,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/monolith.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the monolith"
                 />
                 <h3 class="stories-title">
@@ -1553,7 +1578,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/china-rank.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the covid rank"
                 />
                 <h3 class="stories-title">
@@ -1573,7 +1598,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/shameless.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the shameless"
               />
               <div class="card-body">
@@ -1585,7 +1610,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/reaction.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the reaction"
               />
               <div class="card-body">
@@ -1599,7 +1624,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/pearlharbour.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the pearl harbor"
                 />
                 <h3 class="stories-title">
@@ -1610,7 +1635,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/torndown.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the season 2"
                 />
                 <h3 class="stories-title">
@@ -1622,7 +1647,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/trumpsneak.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the member"
                 />
                 <h3 class="stories-title">
@@ -1642,7 +1667,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/loganpaul.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the memes"
               />
               <div class="card-body">
@@ -1654,7 +1679,7 @@
             <div class="col-lg-4 categ-img">
               <img
                 src="./assets/aaronrodgers.jpeg"
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 alt="the first qb"
               />
               <div class="card-body">
@@ -1667,7 +1692,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/travis.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the nfl history"
                 />
                 <h3 class="stories-title">
@@ -1678,7 +1703,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/floyd.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the odds"
                 />
                 <h3 class="stories-title">
@@ -1690,7 +1715,7 @@
               <div class="clearfix">
                 <img
                   src="./assets/playoff.jpeg"
-                  class="float-left"
+                  class="float-left img-fluid"
                   alt="the nfl playoff"
                 />
                 <h3 class="stories-title">
@@ -1707,7 +1732,7 @@
               <h2 class="sub-new-title">SUBSCRIBE</h2>
               <div class="sub-new-item">
                 <div class="sub-item-1">
-                  <img src="assets/sub-pics.png" alt="" />
+                  <img src="assets/sub-pics.png" class="img-fluid" alt="" />
                 </div>
                 <div class="sub-item-2">
                   <h3 class="font-weight-bold" style="font-size: 16px">
@@ -1722,11 +1747,16 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md col-sm">
               <h2 class="sub-new-title">NEWSLETTER</h2>
               <div class="sub-new-item newl-sec">
                 <div class="new-item-1">
-                  <img src="./assets/sign-pic.png" class="" alt="" />
+                  <img
+                    src="./assets/sign-pic.png"
+                    class="img-fluid"
+                    class=""
+                    alt=""
+                  />
                 </div>
                 <div class="new-item-2">
                   <h3 class="font-weight-bold" style="font-size: 25px">
