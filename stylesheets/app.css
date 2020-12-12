@@ -64,7 +64,8 @@ body {
   line-height: normal;
 }
 
-.fa-user {
+.fa-user,
+.fa-bars {
   display: none;
 }
 
@@ -75,10 +76,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.fa-bars {
-  display: none;
 }
 
 .d-flex {
@@ -470,15 +467,13 @@ body {
   }
 }
 
-.col-lg-4 {
-  flex: 1;
-  min-width: 33%;
-}
-
-@media screen and (min-width: 768px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .col-lg-4 {
-    /* flex: 1; */
+    flex: 1;
     min-width: 50%;
+  }
+  .feat-stories {
+    order: 1;
   }
 }
 
